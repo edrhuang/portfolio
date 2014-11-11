@@ -1,0 +1,166 @@
+header{
+    background: -webkit-radial-gradient(closest-corner,
+    rgba(16,47,70,0) 60%,
+    rgba(16,47,70,0.2)),
+    -webkit-linear-gradient(108deg,#e5e9bf 10%,#00396f 90%);
+    width:100%;
+    height:100px;
+    display: inline-block;
+    top: 0;
+    
+
+}
+h1{
+    display: block;
+    font-size: 5em;
+    color: white;
+    font-family: "bebas-neue";
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+
+.home-btn{
+    position: fixed;
+    top: 15px;
+    left: 20px; 
+    background-color:rgba(160, 160, 160, 0.3);
+    padding: 10px; 
+    z-index: 100;
+}
+
+.home-btn:hover{
+    background-color: #1abc9c;
+    transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+
+span.glyphicon {
+    font-size: 3em;
+    color: white;
+}
+.feature img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+}
+
+.project-title {
+    margin-top:100px;
+    position: static;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.project-title h2{
+    color: black;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 3em;
+    font-family: "bebas-neue";
+}
+.feature{
+    padding-top: 50px;
+    
+}
+.description {
+    text-align: center;
+    line-height: 1;
+    font-family: "omnes-pro";
+    font-weight: 300;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    
+}
+
+.subtitles {
+    font-family: "omnes-pro";
+    font-weight: 400;
+    font-size: 2em;
+    float: left;
+}
+
+.project {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    font-family: "omnes-pro";
+    clear: both;
+    text-align: left;
+}
+.tool-things{
+    clear: both;
+}
+
+.tools .lead{
+    font-weight: 400;
+}
+.content{
+    margin-top: 20px;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.works {
+}
+
+
+.slideshow{
+    width: 585px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url(../images/empty-laptop.png);
+    background-repeat: no-repeat;
+}
+
+.em-link{
+    color: black;
+    text-decoration: none;
+}
+
+.em-link:hover {
+    text-decoration: none;
+    color: rgb(240, 90, 40);
+}
+.up-btn{
+    background-image: url(../images/scrollup.png)
+}
+.scrollup{
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    display: none;
+    background-image: url(../images/scrollup.png)
+}
+
+.scrollup:hover{
+    opacity: 0.8;
+}
+
+footer{
+    height: 100px; 
+    background-color: rgb(236, 236, 236);
+    margin-top: 25px;
+    background: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg,#e5e9bf 10%,#00396f 90%);
+    width:100%;
+    
+}
+
+footer p{
+    text-align: center;
+    margin: 0 auto;
+    color: #1abc9c;
+    padding-top: 40px;
+    
+}
