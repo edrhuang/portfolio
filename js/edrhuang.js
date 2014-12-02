@@ -18,16 +18,8 @@ $(document).ready(function(){
         $('.panel1').slideToggle("slow");
         $(".burger-box").toggleClass('open');
     });
-    
-});
 
 
-
-
-
-
-
-$(document).ready(function() {
   function filterPath(string) {
     return string
       .replace(/^\//,'')
